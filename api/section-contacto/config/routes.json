@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/section-contactos",
+      "handler": "section-contacto.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/section-contactos/count",
+      "handler": "section-contacto.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/section-contactos/:id",
+      "handler": "section-contacto.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/section-contactos",
+      "handler": "section-contacto.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/section-contactos/:id",
+      "handler": "section-contacto.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/section-contactos/:id",
+      "handler": "section-contacto.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

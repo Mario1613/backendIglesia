@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_programa_amanecers",
+  "info": {
+    "name": "sectionProgramaAmanecer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titlehover": {
+      "type": "string"
+    },
+    "videourl": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/section-programa-amanecers",
+      "handler": "section-programa-amanecer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/section-programa-amanecers/count",
+      "handler": "section-programa-amanecer.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/section-programa-amanecers/:id",
+      "handler": "section-programa-amanecer.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/section-programa-amanecers",
+      "handler": "section-programa-amanecer.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/section-programa-amanecers/:id",
+      "handler": "section-programa-amanecer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/section-programa-amanecers/:id",
+      "handler": "section-programa-amanecer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

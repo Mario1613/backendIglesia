@@ -1,0 +1,54 @@
+{
+  "kind": "collectionType",
+  "collectionName": "section_nosotros",
+  "info": {
+    "name": "SectionNosotro",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pnosotros": {
+      "type": "richtext",
+      "required": true
+    },
+    "tnosotros": {
+      "type": "string",
+      "required": true
+    },
+    "imgnosotros": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "tmision": {
+      "type": "string",
+      "required": true
+    },
+    "pmision": {
+      "type": "richtext",
+      "required": true
+    },
+    "tvision": {
+      "type": "string",
+      "required": true
+    },
+    "pvision": {
+      "type": "richtext",
+      "required": true
+    },
+    "pnosotros2": {
+      "type": "richtext"
+    }
+  }
+}
