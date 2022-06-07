@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/textodelasemanas",
+      "handler": "textodelasemana.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/textodelasemanas/count",
+      "handler": "textodelasemana.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/textodelasemanas/:id",
+      "handler": "textodelasemana.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/textodelasemanas",
+      "handler": "textodelasemana.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/textodelasemanas/:id",
+      "handler": "textodelasemana.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/textodelasemanas/:id",
+      "handler": "textodelasemana.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

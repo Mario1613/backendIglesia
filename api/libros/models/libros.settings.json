@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "todos_libros",
+  "collectionName": "",
   "info": {
     "name": "libros",
     "description": ""
@@ -22,15 +22,9 @@
       "required": true,
       "pluginOptions": {}
     },
-    "archivo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "files"
-      ],
-      "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+    "enlace_libro": {
+      "type": "richtext",
+      "required": true
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "textodelasemanas",
+  "info": {
+    "name": "textodelasemana"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "textodelasemana": {
+      "type": "richtext"
+    }
+  }
+}
