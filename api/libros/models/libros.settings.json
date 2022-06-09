@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "",
+  "collectionName": "libros",
   "info": {
     "name": "libros",
     "description": ""
@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "PortadaLibros": {
+    "portadalibros": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -22,7 +22,7 @@
       "required": true,
       "pluginOptions": {}
     },
-    "enlace_libro": {
+    "enlace": {
       "type": "richtext",
       "required": true
     }
