@@ -12,9 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "titlehover": {
-      "type": "string"
-    },
     "videourl": {
       "type": "richtext",
       "required": true
